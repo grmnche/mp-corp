@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP CORP</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid navbar-brand-container">
+                <a class="navbar-brand" href="index.html">
+                    <div class="brand-container d-flex">
+                        <p class="brand-part1">M</p>
+                        <p class="brand-part2">P</p>
+                        <p class="brand-part3">CORP</p>
+                    </div>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">О компании</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Контакты</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Обратная связь</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="d-flex nav-buttons">
+                    <button class="btn" type="submit">
+                        <img class="glass" src="images/search.png" alt="">
+                    </button>
+
+                    <button class="btn">
+                        <img class="heart" src="images/heart.png" alt="">
+                    </button>
+
+                    <button class="btn">
+                        <img class="user" src="images/user.png" alt="">
+                    </button>
+                </div>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="background">
+            <div class="row gx-0 mx-0 d-flex justify-content-center">
+                <div class="about-housing col-11">
+                    <h1 class="housing-name">City Bay</h1>
+                    <p class="housing-adress">1 очередь - 2 кв 2021, корпус Indian Lake 1 и 4 - 4 кв 2021/2 очередь - 1
+                        кв
+                        2024</p>
+                    <div class="metro-station d-flex">
+                        <img class="metro-station-dot" src="images/dot.png" alt="">
+                        <p class="metro-station-name">Деревенская</p>
+                    </div>
+
+                    <div class="form-btns">
+                        <button class="btn mx-0 mr-2 find-apartment">Подобрать квартиру</button>
+                        <button class="btn mx-0 more">Подробнее</button>
+                    </div>
+                    <div class="form-input mt-4">
+                        <p class="form-name">Поиск по объектам</p>
+                        <input class="input" type="text" placeholder="Введите адрес, метро или название ЖК">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-company">
+            <div class="row gx-0 mx-0 d-flex justify-content-center">
+                <div class="col-11">
+                    <h2>О компании</h2>
+                    <p>
+                        Мы предоставляем нашим клиентам элитное жильё, соответствующее мировым стандартам качества и
+                        комфорта. Десять лет на строительном рынке - более миллиона довольных жильцов.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contacts">
+            <div class="row gx-0 mx-0 d-lg-flex justify-content-center">
+                <div class="col-11">
+                    <h2 class="mb-4">Контакты</h2>
+                    <div class="cards d-lg-flex">
+                        <div class="card mb-4" style="width: 20rem;">
+                            <img src="images/phone.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Телефон</h5>
+                                <p class="card-text">+7 ХХХ ХХХ-ХХ-ХХ</p>
+                            </div>
+                        </div>
+
+                        <div class="card mx-lg-4 mb-4" style="width: 20rem;">
+                            <img src="images/e-mail.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Почта</h5>
+                                <p class="card-text">mpcorp@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4" style="width: 20rem;">
+                            <img src="images/adress.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Адрес</h5>
+                                <p class="card-text">ХХХХХХ, Москва, 1-й ХХХХХХ проезд, д. ХХ, стр. Х (Бизнес-центр ХХХ)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="feedback">
+            <div class="row gx-0 mx-0 d-lg-flex justify-content-center">
+                <div class="col-11">
+                    <h2>Напишите нам</h2>
+                    <form class="form-inner" id="feedback-form" role="form">
+                        <div class="inputs">
+                            <div class="input-name input-name1">
+                                <label for="input-name">Введите имя</label>
+                                <input type="text" name="name" class="input-inner input-inner1" id="input-name"
+                                    placeholder="Ваше имя" />
+                            </div>
+                            <div class="input-name input-name2">
+                                <label for="input-name">Введите почту</label>
+                                <input type="email" name="email" class="input-inner input-inner2" id="input-email"
+                                    placeholder="Ваша почта" />
+                            </div>
+                            <div class="input-name input-name3">
+                                <label for="input-name">Введите соообщение</label>
+                                <input type="text" name="message" class="input-inner input-inner3" id="input-message"
+                                    placeholder="Ваше сообщение" />
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn feedback-btn mt-3 mx-0 send-message-btn">
+                            <p class="m-0">Отправить сообщение</p>
+                        </button>
+
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="navbar-footer">
+            <div class="row gx-0 mx-0 d-lg-flex justify-content-center">
+                <div class="col-11 mt-4">
+                    <a href="#"><img class="contact-icon" src="images/VK.png" alt=""></a>
+                    <a href="#"><img class="contact-icon mx-4" src="images/telegram.png" alt=""></a>
+                    <a href="#"><img class="contact-icon" src="images/youtube.png" alt=""></a>
+                </div>
+                <div class="col-11 mt-4">
+                    <p class="copywrite">
+                        © MP CORP 2023
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="libs/jquery/jquery-3.7.0.min.js"></script>
+    <script src="main.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+</body>
+
+</html>
