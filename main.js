@@ -6,7 +6,7 @@ $(document).ready(function () {
     if (win.scrollTop() + win.height() >= marker.offset().top) {
       $(".about-company").fadeIn(1400);
     } else {
-      $(".about-company").finish().animate({ opacity: "hide" }, 1);
+      $(".about-company").finish().animate({ opacity: "hide" }, 0);
     }
   });
 
@@ -17,7 +17,7 @@ $(document).ready(function () {
     if (win2.scrollTop() + win2.height() >= marker2.offset().top) {
       $(".contacts").fadeIn(1400);
     } else {
-      $(".contacts").finish().animate({ opacity: "hide" }, 1);
+      $(".contacts").finish().animate({ opacity: "hide" }, 0);
     }
   });
 
